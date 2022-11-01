@@ -1,0 +1,27 @@
+#centro {
+    display: grid;
+    place-items: center;
+}
+
+#centro1 {
+    display: grid;
+    place-items: center;
+}
+
+.posicao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -115px;
+    margin-top: 5px;
+
+}
+
+fieldset {
+    border: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -10%;
+    margin-top: 50px;
+}
