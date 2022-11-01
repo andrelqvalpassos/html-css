@@ -1,6 +1,7 @@
 #centro {
     display: grid;
     place-items: center;
+
 }
 
 #centro1 {
@@ -9,12 +10,22 @@
 }
 
 .posicao {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -115px;
-    margin-top: 5px;
+    margin-left: 600px;
+    margin-top: 70px; */
+    position: absolute;
+    left: 43%;
+    top: 43%;
+}
 
+#posicao2 {
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    margin-left: 600px;
+    margin-top: 5px;
 }
 
 fieldset {
@@ -24,4 +35,36 @@ fieldset {
     top: 50%;
     margin-left: -10%;
     margin-top: 50px;
+}
+
+/* button{
+    background-color: #FB9400;
+} */
+
+.campo2 {
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#recurso {
+    color: #FB9400;
+}
+
+img {
+    position: absolute;
+    left: 44%;
+    top: 90px;
+
+}
+
+button .campo2{
+    position: absolute;
+    visibility: hidden;
+    left: 3.5%;
+    right: 3.04%;
+    top: 47.73%;
+    bottom: 48.16%;
+    border: 1px solid #FB9400;
+    border-radius: 4px;
 }
