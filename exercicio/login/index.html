@@ -11,33 +11,52 @@
 </head>
 
 <body>
-    <div>
-        <center>
-            <img src="imagens/image 2.png" alt="Logo da Marca">
-        </center>
-        <h2 = "titulo" id="posicao2"><b></b> Seja muito bem-vindo(a)</h2>
-        <p = "subtitulo class="posicao">Informe seus dados para continuar</p>
-    </div>
-    <br>
-    <form>
 
-        <fieldset class="teleinicio">
-            <div class="campo">
-                <label for="email"><strong>Informe seu email</strong></label>
-                <input type="text" name="email" id="email">
+    <div class="container">
+        <img src="imagens/image 2.png" alt="Logo">
+        <div class="container.login"></div>
+        <div class="wrap.login"></div>
+        <form>
+            <span class="login.form.title">
+                Faça o Login
+            </span>
+
+            <div class="wrap.input margin-top 35 margin-bottom-35">
+                <input class="form" type="email" name="email" autocomplete="off">
+                <span class="focus.input" data.placeholder="E-mail"></span>
             </div>
-            <br>
-            <div class="campo">
-                <label for="senha" class="icon"><strong>Digite sua senha</strong></label>
-                <input type="number" name="senha" id="senha">
-                <h5 id="recurso">Entra com telefone</h5>
+
+            <div class="wrap.input margin-bottom-35">
+                <input class="form" type="password" name="password">
+                <span class="focus.input" data.placeholder="Senha"></span>
+
+                <div class="container.login.bt">
+                    <button class="login.bt">
+                        Entar
+                    </button>
+                </div>
+                <ul class="utilidades">
+                    <li class="margin-top-8">
+                        <span class="texto1">
+                        </span>
+                        <a href="https://www.youtube.com/">
+                            Entar com telefone
+                        </a>
+                    </li>
+                    <!--Colocar o link da pagina de recuperar senha-->
+                    <li class="margin-top-8">
+                        <span class="texto2">
+                            Esqueceu sua
+                        </span>
+                        <a href="https://www.youtube.com/">
+                            senha?
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </fieldset>
-        <button form="aaa" class="campo2">
-            <label for="email">Informe seu email</label>
-            <input type="email" name="email" id="email">
-        </button>
-    </form>
+        </form>
+
+    </div>
 </body>
 
 </html>
