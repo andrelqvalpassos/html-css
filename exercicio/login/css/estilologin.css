@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800&display=swap');
+@import url('./Sidebar.css');
 
-:root {
-    --color-primary: #FB9400;
-    --color-secundary: #000;
+:root{
+    --color-primary:#FB9400;
+    --color-secundary:#000;
     --box-shadow: (10px 0 30px 0 rgba(0, 0, 1, 0.11));
 }
 
-button{
-    color: #FB9400;
-    outline: none;
-    border: none;
-}
-
-html, body{
+html,
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -20,6 +16,18 @@ html, body{
     overflow-x: hidden;
 }
 
-ul, a{
+button {
+    outline: none;
+    border: none;
     color: #FB9400;
+}
+
+ul{
+    list-style: none;
+}
+
+a, span{
+    text-decoration: none;
+    color: #FB9400;
+    
 }
